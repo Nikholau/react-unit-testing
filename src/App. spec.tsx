@@ -5,5 +5,5 @@ test('sum', () => {
 
   const { getByText } = render(<App />)
 
-  expect('Hello World').toBeTruthy()
+  expect(getByText('Hello World')).toBeTruthy()
 })
