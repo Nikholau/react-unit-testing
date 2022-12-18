@@ -1,7 +1,5 @@
-function App() {
-  return (
-   <h1>Teste automatizado</h1>
-  )
-}
+import List from "./components/List";
 
-export default App
+export default function App() {
+  return <List initialItems={['Nikholas', 'Helio', 'Gerson']} />
+}
